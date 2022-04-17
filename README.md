@@ -12,3 +12,5 @@
 ```SHOW BALANCE```<br>
 ```WITHDRAWL```<br>
 ```CANCEL TRANSACTION```<br>
+
+![](https://github.com/BALAMURUGAN41882/TASK_6/blob/master/Screenshot%20(12).png "Image")
