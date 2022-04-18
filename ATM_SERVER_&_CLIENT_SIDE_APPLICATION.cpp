@@ -203,7 +203,7 @@ int main()
     cout<<"--- Bank Server Side ---"<<endl;
       while(1)
       {
-          cout<<"Account Holder(SN): ";
+          cout<<"Account Holder(SI.NO): ";
           cin>>acc_count;
           if(acc_count!=0)
           {
