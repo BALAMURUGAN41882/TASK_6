@@ -155,17 +155,17 @@ class ATM::client_side : public ATM::client_analysing
                         if(check=="~"){continue;} else {break;}
                     case 2:
                         client_analysing::showbal();
-                        cout<<"Enter Tilde(~) to continue: ";
+                        cout<<endl<<"Enter Tilde(~) to continue: ";
                         cin>>check;
                         if(check=="~"){continue;} else {break;}
                     case 3:
                         client_analysing::withdrawl();
-                        cout<<"Enter Tilde(~) to continue: ";
+                        cout<<endl<<"Enter Tilde(~) to continue: ";
                         cin>>check;
                         if(check=="~"){continue;} else {break;}
 
                     case 4:
-                        cout<<" Transaction Cancelled "<<endl;
+                        cout<<endl<<"Transaction Cancelled "<<endl;
                         exit(1);
                         break;
                     default:
@@ -229,7 +229,6 @@ int main()
         cout<<"---------WELCOME TO ZOHO ATM--------"<<endl;
 
         long long int account_num1;
-        int atm_password;
         cout<<"Enter Account Number : ";
         cin>>account_num1;
         obj1.call(account_num1);
